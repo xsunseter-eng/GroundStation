@@ -1,0 +1,13 @@
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@import 'tw-animate-css';
+
+@keyframes scan {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
